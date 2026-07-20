@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #f8fafc;
+    color: #1e293b;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: rgba(16, 185, 129, 0.15);
+    color: #064e3b;
+  }
+
+  ::-webkit-scrollbar { width: 5px; }
+  ::-webkit-scrollbar-track { background: #f1f5f9; }
+  ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 5px; }
+  ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+}
+
+@layer components {
+  .section-wrap {
+    @apply max-w-6xl mx-auto px-5 sm:px-8 py-24 lg:py-32;
+  }
+
+  .eyebrow {
+    @apply font-mono text-[10px] tracking-[0.25em] uppercase text-emerald-600 mb-3 inline-flex items-center gap-2;
+  }
+
+  .heading-xl {
+    @apply font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 leading-[1.1];
+  }
+
+  .heading-lg {
+    @apply font-display text-3xl sm:text-4xl font-bold tracking-tight text-slate-900;
+  }
+
+  .body-lg {
+    @apply font-body text-base sm:text-lg text-slate-600 leading-relaxed;
+  }
+
+  .glass-card {
+    @apply relative overflow-hidden rounded-xl border border-slate-200/60
+           bg-white/80 backdrop-blur-md shadow-sm shadow-blue-900/5
+           transition-all duration-300;
+  }
+
+  .btn-cta {
+    @apply relative inline-flex items-center gap-2.5 overflow-hidden
+           bg-emerald-600 text-white font-mono font-bold
+           px-6 py-3 rounded-lg text-xs tracking-wider uppercase
+           transition-all duration-200
+           hover:bg-emerald-700 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98];
+    box-shadow: 0 4px 14px -4px rgba(16,185,129,0.4);
+  }
+
+  .btn-outline {
+    @apply relative inline-flex items-center gap-2.5
+           border border-slate-200 text-slate-700 font-mono font-bold
+           px-6 py-3 rounded-lg text-xs tracking-wider uppercase
+           transition-all duration-200
+           hover:border-emerald-600/50 hover:text-emerald-600 hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .tag-pill {
+    @apply font-mono text-[9px] px-2 py-0.5 rounded border
+           border-slate-100 text-slate-500 bg-slate-50/60;
+  }
+}
