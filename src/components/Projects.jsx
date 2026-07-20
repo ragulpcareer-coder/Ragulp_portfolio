@@ -311,7 +311,7 @@ export default function Projects() {
             </div>
           </motion.div>
 
-          {/* Card 3: IT Asset Management System */}
+          {/* Card 2: IT Asset Management System */}
           <motion.div
             custom={0.2}
             variants={fadeUp}
@@ -323,16 +323,16 @@ export default function Projects() {
               <div className="flex items-center gap-3">
                 <div
                   className="p-2.5 rounded-lg border border-slate-100"
-                  style={{ backgroundColor: `${p3.accent}05` }}
+                  style={{ backgroundColor: `${p2.accent}05` }}
                 >
                   <Terminal size={18} className="text-emerald-600" />
                 </div>
                 <span className="font-mono text-xs font-bold tracking-widest text-emerald-600/60">
-                  {p3.number}
+                  {p2.number}
                 </span>
               </div>
               <a
-                href={p3.github}
+                href={p2.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded text-slate-450 hover:text-slate-800 hover:bg-slate-50 transition-all duration-200"
@@ -343,15 +343,15 @@ export default function Projects() {
             </div>
 
             <h3 className="font-display font-bold text-lg text-slate-800 mb-2 leading-snug">
-              {p3.title}
+              {p2.title}
             </h3>
-            <p className="font-mono text-[10px] text-slate-400 mb-4">{p3.duration}</p>
+            <p className="font-mono text-[10px] text-slate-400 mb-4">{p2.duration}</p>
             <p className="font-body text-sm text-slate-600 leading-relaxed mb-6 flex-1">
-              {p3.description}
+              {p2.description}
             </p>
 
             <div className="flex flex-wrap gap-1.5 mb-5">
-              {p3.tech.map(t => (
+              {p2.tech.map(t => (
                 <span key={t} className="tag-pill">{t}</span>
               ))}
             </div>
@@ -372,7 +372,7 @@ export default function Projects() {
           </motion.div>
         </div>
 
-        {/* Card 2: Zero-Trust Network Architecture (Large Visual Layout Centerpiece) */}
+        {/* Card 3: Zero-Trust Network Architecture (Large Visual Layout Centerpiece) */}
         <motion.div
           custom={0.3}
           variants={fadeUp}
@@ -387,16 +387,16 @@ export default function Projects() {
                 <div className="flex items-center gap-3">
                   <div
                     className="p-2.5 rounded-lg border border-slate-100"
-                    style={{ backgroundColor: `${p2.accent}05` }}
+                    style={{ backgroundColor: `${p3.accent}05` }}
                   >
                     <ShieldAlert size={18} className="text-emerald-600" />
                   </div>
                   <span className="font-mono text-xs font-bold tracking-widest text-emerald-600/60">
-                    {p2.number}
+                    {p3.number}
                   </span>
                 </div>
                 <a
-                  href={p2.github}
+                  href={p3.github}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded text-slate-450 hover:text-slate-800 hover:bg-slate-50 transition-all duration-200"
@@ -407,21 +407,21 @@ export default function Projects() {
               </div>
 
               <h3 className="font-display font-bold text-xl text-slate-800 mb-2 leading-snug">
-                {p2.title}
+                {p3.title}
               </h3>
-              <p className="font-mono text-[10px] text-slate-400 mb-4">{p2.duration}</p>
+              <p className="font-mono text-[10px] text-slate-400 mb-4">{p3.duration}</p>
               <p className="font-body text-sm text-slate-600 leading-relaxed mb-6">
-                {p2.description}
+                {p3.description}
               </p>
 
               <div className="flex flex-wrap gap-1.5 mb-6">
-                {p2.tech.map(t => (
+                {p3.tech.map(t => (
                   <span key={t} className="tag-pill">{t}</span>
                 ))}
               </div>
 
               <a
-                href={p2.github}
+                href={p3.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-xs font-mono font-medium text-emerald-700 hover:underline underline-offset-4 mt-auto"

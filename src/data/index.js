@@ -82,29 +82,29 @@ export const PROJECTS = [
       'Real-time AI-powered interview platform using the Gemini API for dynamic question generation based on resumes and job descriptions, with a live chat interface, structured evaluation metrics (accuracy, communication, impact), a performance analytics dashboard, and a fault-tolerant backend with fallback mechanisms for AI or database failures.',
     tech: ['MERN Stack', 'Gemini API', 'Real-Time Chat', 'Analytics', 'Fault-Tolerant Backend'],
     accent: '#059669',
-    github: 'https://github.com/ragulpcareer-coder',
-  },
-  {
-    icon: Shield,
-    number: '02',
-    title: 'Zero-Trust Network Architecture',
-    duration: 'Feb 2025 - Apr 2025 | Solo Project',
-    description:
-      'Zero-trust network of 9 end devices and infrastructure nodes across 5 security segments (VLANs) plus a remote-access SDP segment, using micro-segmentation and identity-based access control. Secure remote access configured via a Software-Defined Perimeter and encrypted tunneling across 2 routers, 1 access switch, 4 user PCs, and 3 servers — reducing attack surface by replacing perimeter-based security with identity-driven policies.',
-    tech: ['Cisco Packet Tracer', 'Micro-Segmentation', 'Identity-Based Access', 'SDP', 'Encrypted Tunneling'],
-    accent: '#0f766e',
-    github: 'https://github.com/ragulpcareer-coder',
+    github: 'https://github.com/ragulpcareer-coder/AI-Mock-Interview-Platform',
   },
   {
     icon: Database,
-    number: '03',
+    number: '02',
     title: 'IT Asset Management System',
     duration: 'May 2025 - Sep 2025 | Solo Project',
     description:
       'Secure MERN asset tracking system with JWT-based authentication and role-based access control, rate limiting, password validation, and audit logging, with real-time updates via Socket.IO and modular React components.',
     tech: ['MERN Stack', 'JWT', 'RBAC', 'Rate Limiting', 'Audit Logs', 'Socket.IO'],
     accent: '#65a30d',
-    github: 'https://github.com/ragulpcareer-coder',
+    github: 'https://github.com/ragulpcareer-coder/IT-Asset-Tracking',
+  },
+  {
+    icon: Shield,
+    number: '03',
+    title: 'Zero-Trust Network Architecture',
+    duration: 'Feb 2025 - Apr 2025 | Solo Project',
+    description:
+      'Zero-trust network of 9 end devices and infrastructure nodes across 5 security segments (VLANs) plus a remote-access SDP segment, using micro-segmentation and identity-based access control. Secure remote access configured via a Software-Defined Perimeter and encrypted tunneling across 2 routers, 1 access switch, 4 user PCs, and 3 servers — reducing attack surface by replacing perimeter-based security with identity-driven policies.',
+    tech: ['Cisco Packet Tracer', 'Micro-Segmentation', 'Identity-Based Access', 'SDP', 'Encrypted Tunneling'],
+    accent: '#0f766e',
+    github: 'https://github.com/ragulpcareer-coder/Zero_Trust_Network_Cisco_Packet_Tracer',
   },
 ]
 
