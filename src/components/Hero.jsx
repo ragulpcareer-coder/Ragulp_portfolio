@@ -32,7 +32,7 @@ function TerminalConsole() {
       {/* Profile picture (standard color, no mouseover filters) */}
       <div className="relative aspect-[4/5] rounded overflow-hidden border border-slate-100 mb-3">
         <img
-          src="/ragul-profile.jpeg"
+          src="ragul-profile.jpeg"
           alt="Ragul P"
           className="h-full w-full object-cover object-[50%_18%]"
         />
